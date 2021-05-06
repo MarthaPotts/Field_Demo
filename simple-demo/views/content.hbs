@@ -3,10 +3,25 @@
     </header>
 
 <div class='content-container'>
-    <div class='main-post'>Add your post here ...</div>
-    <button class='add-post'>Add Post</button> 
-    <button class='del-post'>Delete Post</button>
-    <div class='main-comment'>Add your comment here ...</div>
-    <button class='add-comment'>Add Comment</button>
-    <button class='del-comment'>Delete Comment</button>
+  <form id='post-and-comment'>
+
+    <div class='main-post'>
+        <textarea class='post'
+        placeholder='Add your post here...'>
+        </textarea>
+    </div>
+
+    <button type='submit' class='add-post'>Add Post</button> 
+    <button type='submit' class='del-post'>Delete Post</button>
+    
+    <div class='main-comment'>
+        <textarea class='comment'
+        placeholder='Add your comment here...'>
+        </textarea>
+    </div>
+    <button type='submit' class='add-comment'>Add Comment</button>
+    <button type='submit' class='del-comment'>Delete Comment</button>
+
+  </form>
 </div>
+  
