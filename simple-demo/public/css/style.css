@@ -59,12 +59,14 @@ html, body {
     flex-wrap: wrap;  
 }
 .city { 
-    padding: 10px; 
+    padding: 10px;
+    color: white;  
 }
 button {
     background-color: black; 
     color: white; 
     margin: 5px; 
+    border-color: green; 
 }
 /*login*/
 .form, h2 {
@@ -86,4 +88,39 @@ button {
 .form-input {
     margin: 5px;
     border-radius: 5px; 
+}
+/*content*/
+.content-container {
+    width: 100%;  
+}
+.main-post {
+    border: solid 1px green;
+    height: 25vh;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;   
+}
+.main-comment {
+    border: solid 1px green;
+    height: 25vh; 
+    border-radius: 15px; 
+    color: white; 
+    padding: 20px;  
+}
+.content-hero {
+    border: solid 10px green; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+    border-radius: 15px; 
+}
+.add-post, 
+.del-post, 
+.add-comment, 
+.del-comment {
+    margin: 10px; 
+    padding: 2px;
+    border-radius: 5px;
+    color: lightgreen;  
 }
