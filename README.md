@@ -1,28 +1,10 @@
-# Simple Demo For OSU Coding Bootcamp/GroupProject2/The Field
+# Field_Demo
 
-## Installation/Use
+## Created out of necessity
 
-    ```{
-  "name": "simple-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "@glidejs/glide": "^3.4.1",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.1",
-    "nodemon": "^2.0.7"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC"
-}
-```
+    A demonstration of the compatibility of glidejs with express-handlebars
+    **Does not contain** active API routing or db information
 
-## Contributing 
+## Use
 
-Expected 
+    Download the file. Dependencies and start command in the README
