@@ -58,3 +58,27 @@ router.get('/thread', async () => {
 //Delete post (and comments)
 
 //Delete comment
+
+//route to landing page if logged in: 
+router.get('/', withAuth, (req, res) => {
+    res.render('homepage', {
+        logged_in: req.session.logged_in
+    }); 
+}); 
+//login page 
+router.get('login', (req,res) => {
+    res.render('login', {logged_in: req.session.logged_in})
+}); 
+//get all posts and associated comments for activity: 
+// router.get('/thread/:id', withAuth, async(req,res) => {
+//     try{
+//         const acivityData = await Post.findAll({
+//             where: [
+//                 {
+//                     activity_id: req.params.id,
+//                 }
+//             ],
+//             attributes: []
+//         })
+//     }
+// })
